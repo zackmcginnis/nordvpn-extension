@@ -1,0 +1,7 @@
+{
+  "name": "com.nordvpn.toggle",
+  "description": "Toggle nordvpn status",
+  "path": "/home/zackmcginnis/Documents/github/nordvpn-extension/host/nordvpn_toggle.js",
+  "type": "stdio",
+  "allowed_origins": [ "ehfciipgbliloihdfbhgclopipeondhj" ]
+}

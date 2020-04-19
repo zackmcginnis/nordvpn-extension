@@ -1,0 +1,16 @@
+{
+    "description": "Toggle connect and disconnect of NordVPN",
+    "manifest_version": 2,
+    "name": "Nordvpn extension",
+    "version": "1.0",
+
+    "background": {
+      "persistent": true,
+      "scripts": ["index.js"]
+    },
+  
+    "permissions": ["nativeMessaging", "activeTab"],
+    "browser_action": {
+      "default_icon": "./icons/disconnected.png"
+    }
+  }
