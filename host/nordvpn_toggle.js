@@ -60,7 +60,7 @@ async function messageHandler(msg, push, done) {
             cmd.stderr.on('data', (err) => {
                 push({ message: err, err});
             });
-              
+
             // cmd.on('close', (code) => {
             //     push({ message: code, code});
             // });
