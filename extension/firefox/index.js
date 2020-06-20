@@ -2,7 +2,7 @@
 let connection_status = false
 
 // Connect to our native messaging host
-const port = chrome.runtime.connectNative('com.nordvpn.toggle')
+const port = chrome.runtime.connectNative('com.nordvpn.toggle.firefox')
 
 // When the user clicks the extension icon in the browser icon tray,
 // we send a message to our script which will toggle their NordVPN connection status 
