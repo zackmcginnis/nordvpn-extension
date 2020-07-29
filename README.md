@@ -13,7 +13,6 @@ Contains code which runs in the browser (Chrome or Firefox)
 Contains code which will run on the users machine. Includes scripts for installation and removal.
 
 ### TODO's
-- Add support for Firefox extension
 - Add install script for both Chrome and Firefox locations
 - Add uninstall script for both Chrome and Firefox locations
 - Rename index.js to something more descriptive of it's purpose
